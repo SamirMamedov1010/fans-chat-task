@@ -1,0 +1,23 @@
+export const colors = {
+  background: '#FFFFFF',
+  border: '#E4E4E7',
+  customPrimary100: '#EAEBFB',
+  customSecondary500: '#8258DE',
+  destructive: '#DC2626',
+  disabled: '#A1A1AA',
+  foreground: '#0A0A0A',
+  icon: '#18181B',
+  input: '#E5E5E5',
+  mutedForeground: '#737373',
+  primary: '#5863DE',
+  success: '#22C55E',
+  verified: '#2563EB',
+  secondary: '#F5F5F5',
+  messageOutgoing: '#F6F6FF',
+  selected: '#EEF2FF',
+  textSecondary: '#71717A',
+  status: {
+    online: '#16A34A',
+    offline: '#A1A1AA',
+  },
+} as const;
